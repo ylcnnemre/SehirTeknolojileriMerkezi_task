@@ -10,7 +10,7 @@ const Header = () => {
   }, [])
 
   return (
-    <section className='header_container'>
+    <section className='header_container' id='header'>
       <img src="Logo.png" alt="" />
 
       <div className='header_links_wrapper' >
@@ -18,7 +18,7 @@ const Header = () => {
           headerLinks.map((item, index) => {
 
             return (
-              <a key={index} className='header_link'  >
+              <a key={index} className='header_link' href={`#${item}`}  >
                 {item}
               </a>
             )

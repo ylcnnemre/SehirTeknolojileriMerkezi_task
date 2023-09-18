@@ -1,0 +1,97 @@
+.customer_container {
+    background-color: #112B3C;
+    padding: 80px 135px;
+
+    .title {
+        color: #FFF;
+        font-family: Source Sans Pro;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 64px */
+    }
+
+    .content_wrapper {
+        padding-top: 60px;
+        padding-left: 130px;
+        display: flex;
+
+
+        .img_container {
+            position: relative;
+
+            img {
+                margin-right: 140px;
+            }
+
+            .star {
+                position: absolute;
+                bottom: -5%;
+                left: -7%;
+            }
+        }
+
+
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .title {
+                color: #FFF;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .desc {
+                color: rgba(255, 255, 255, 0.80);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%;
+                margin: 24px 0;
+            }
+
+            .who {
+                color: #F66B0E;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                margin-bottom: 10px;
+            }
+
+            .job {
+                color: rgba(255, 255, 255, 0.80);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                /* 16px */
+            }
+
+            .arrows {
+                text-align: end;
+                
+                img:last-child{
+                    margin-left: 10px;
+                }
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

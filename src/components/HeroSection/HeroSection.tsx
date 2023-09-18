@@ -2,7 +2,7 @@ import React from 'react'
 import "./heroSection.scss"
 const HeroSection = () => {
     return (
-        <div className='hero_section_container'>
+        <div className='hero_section_container' id='Home'>
             <h1 className='hero_title'>
                 Amazing furniture for  your home
             </h1>

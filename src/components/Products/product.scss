@@ -1,0 +1,91 @@
+.products_container {
+
+    padding: 100px 135px;
+
+    .title {
+        color: #112B3C;
+        text-align: center;
+
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 64px */
+    }
+
+    .categorie_list {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 40px;
+
+        .categorie_item {
+            color: #828282;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin-right: 40px;
+            cursor: pointer;
+        }
+    }
+
+
+    .product_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 200px;
+        margin-top: 203px;
+
+        .product_item {
+
+            background-color: #FFF8F0;
+            text-align: center;
+            justify-content: center;
+            position: relative;
+
+            .product_img {
+                transform: translateY(-50%);
+                max-width: 100%;
+                max-height: 100%;
+                align-self: center;
+            }
+
+            .content {
+                padding: 22px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .product_name {
+                    color: #112B3C;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 160%;
+                    /* 38.4px */
+                }
+
+                .price_field {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    .price {
+                        color: #112B3C;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        /* 25.6px */
+                    }
+                }
+            }
+        }
+    }
+}

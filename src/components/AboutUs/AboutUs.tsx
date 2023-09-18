@@ -31,7 +31,7 @@ const AboutUs = () => {
 
 
     return (
-        <section className='aboutus_container'>
+        <section className='aboutus_container' id='About'>
             <div>
                 <div className='left_side'>
                     <h3 className='title'>
