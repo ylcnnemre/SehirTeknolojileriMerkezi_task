@@ -1,0 +1,117 @@
+.aboutus_container {
+    padding: 100px 135px;
+
+    .left_side {
+        width: 30%;
+
+        .title {
+            color: #112B3C;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+        }
+
+        .desc {
+            margin-top: 24px;
+            color: #828282;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+        }
+    }
+
+    .right_side {
+        width: 70%;
+    }
+
+    .aboutus_content {
+        margin-top: 60px;
+        display: flex;
+
+        &_left_side {
+            width: 48%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 33px;
+            column-gap: 30px;
+
+            .content_item {
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    color: #F66B0E;
+                    font-size: 64px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100%;
+                    /* 64px */
+                }
+
+                h5 {
+                    color: #000;
+
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 100%;
+                    margin: 18px 0;
+                    /* 24px */
+                }
+
+                p {
+                    color: #BDBDBD;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%;
+                    /* 32px */
+                }
+            }
+        }
+
+        &_right_side {
+            width: 52%;
+            padding-left: 92px;
+            display: flex;
+
+            .left {
+           
+                display: flex;
+                 flex-direction: column;
+                 margin-right: 60px;
+                .img2 {
+                    transform: translateY(-5%);
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+                .img4{
+                    max-height: 100%;
+                    max-width: 100%;
+                    transform: translateY(10%);
+                }
+            }
+
+            .right {
+                display: flex;
+                flex-direction: column;
+                width: max-content;
+
+                .img3{
+                    transform: translateY(-45%);
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+                .img5{
+                    transform: translateY(-35%);
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+        }
+
+    }
+}

@@ -5,16 +5,37 @@ const Header = () => {
 
   const headerLinks: Array<string> = useMemo(() => {
     return [
-      "Home","About","Products","Testimonial"
+      "Home", "About", "Products", "Testimonial"
     ]
   }, [])
 
   return (
-    <div className='header_container'>
+    <section className='header_container'>
       <img src="Logo.png" alt="" />
 
+      <div className='header_links_wrapper' >
+        {
+          headerLinks.map((item, index) => {
 
-    </div>
+            return (
+              <a key={index} className='header_link'  >
+                {item}
+              </a>
+            )
+
+          })
+        }
+
+      </div>
+      <div className='header_right_wrapper'>
+        <a className='contact_link'>
+          Contact
+        </a>
+        <button>
+          Buy Online
+        </button>
+      </div>
+    </section>
   )
 }
 
