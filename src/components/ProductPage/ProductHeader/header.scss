@@ -1,0 +1,118 @@
+.product_header {
+    padding: 24px 102px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .ebaylogo {
+            margin-right: 100px;
+        }
+
+        .search_field {
+            background-color: #F3F3F3;
+            display: flex;
+            border-radius: 10px;
+            flex: 1;
+
+            p {
+                display: flex;
+                align-items: center;
+                border-right: 1px solid gray;
+
+                img {
+                    transform: translateY(10%);
+                    margin-left: 5px;
+                    margin-right: 10px;
+                }
+
+            }
+
+            &_wrapper {
+                padding: 12px;
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                .search_input {
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    margin-left: 25px;
+                    flex: 1;
+                }
+            }
+
+            .search_btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #0064D2;
+                padding: 5px 20px;
+                border: none;
+                border-top-right-radius: 12px;
+                border-bottom-right-radius: 12px;
+            }
+        }
+
+
+        .header_status {
+            display: flex;
+            align-items: center;
+            margin-left: 100px;
+
+            .favorites {
+                display: flex;
+                align-items: center;
+                margin-right: 40px;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+
+            .shopping_card {
+                display: flex;
+                margin-right: 40px;
+
+                p {
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        color: #0064D2;
+                    }
+                }
+            }
+
+            .profile_image {
+                display: flex;
+                align-items: center;
+                margin-right: 40px;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+
+            .categories_button {
+                display: flex;
+                padding: 14px;
+                align-items: center;
+                background-color: #0064D2;
+                border: none;
+                border-radius: 8px;
+                color: white;
+                cursor: pointer;
+
+                img {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}

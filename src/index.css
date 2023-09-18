@@ -2,7 +2,6 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: sfpro;
   scroll-behavior: smooth;
 }
 a{
@@ -15,4 +14,9 @@ ul, ol {
 @font-face {
   font-family: sfpro;
   src: url("../public/SourceSansPro-Regular.otf");
+}
+
+@font-face {
+  font-family: poppins;
+  src: url("../public/Poppins-Regular.ttf");
 }

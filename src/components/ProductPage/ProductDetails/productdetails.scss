@@ -1,0 +1,90 @@
+.productDetail_container {
+    padding-left: 108px;
+    padding-top: 30px;
+
+    .detailTop_comment {
+        display: flex;
+        align-items: center;
+
+        .left_icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E5EFFB;
+            border-radius: 50%;
+            padding: 8px;
+        }
+
+
+        .desc {
+            margin: 0 36px;
+            color: #2F294D;
+            font-size: 18px;
+            letter-spacing: 1.1px;
+
+            span {
+                text-decoration: underline;
+                color: #0064D2;
+            }
+        }
+
+        .desc2 {
+            font-size: 18px;
+            text-decoration: underline;
+            letter-spacing: 1.1px;
+            color: #0064D2;
+        }
+    }
+
+
+
+    .product_content {
+
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+
+        .phone_img {
+            width: 40%;
+            border-radius: 30px;
+        }
+
+        .phone_detail {
+            width: 60%;
+            padding-left: 50px;
+
+
+            .phone_name {
+                color: #2F294D;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: normal;
+
+
+                .phone_brand {
+
+                    margin-right: 20px;
+                }
+            }
+
+
+
+            .product_shipping {
+                color: #2F294D;
+                margin-top: 10px;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .star_icon {}
+
+        }
+    }
+}
+
+.gray_star {
+    filter: grayscale(100%);
+}
