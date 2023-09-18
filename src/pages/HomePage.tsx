@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../components/Header/Header'
-import HeroSection from '../components/HeroSection/HeroSection'
-import AboutUs from '../components/AboutUs/AboutUs'
-import Products from '../components/Products/Products'
-import CustomerReview from '../components/CustomerReview/CustomerReview'
-import ContactUs from '../components/ContactUs/ContactUs'
-import Footer from '../components/Footer/Footer'
+import Header from '../components/HomePage/Header/Header'
+import HeroSection from '../components/HomePage/HeroSection/HeroSection'
+import AboutUs from '../components/HomePage/AboutUs/AboutUs'
+import Products from '../components/HomePage/Products/Products'
+import CustomerReview from '../components/HomePage/CustomerReview/CustomerReview'
+import ContactUs from '../components/HomePage/ContactUs/ContactUs'
+import Footer from '../components/HomePage/Footer/Footer'
 
 const HomePage = () => {
     return (
