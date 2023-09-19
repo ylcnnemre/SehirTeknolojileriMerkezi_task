@@ -17,19 +17,16 @@ const ProductDetails = () => {
 
   const alldata: any = useSelector(item => item)
   const dispatch = useDispatch()
-  console.log("alldata ==>", alldata)
   const getProduct = async () => {
     try {
       const productId = searchParams.get("id")
 
       setLoading(true)
       let response = await axios.get(`https://dummyjson.com/products/${productId ?? 2}`)
-      console.log(response.data)
       setProductData(response.data)
       setLoading(false)
     }
     catch (err) {
-      console.log(err)
       setLoading(false)
     }
 
