@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react'
 import "./header.scss"
-
+import { useNavigate } from "react-router-dom"
 const Header = () => {
-
+  const navigate = useNavigate()
   const headerLinks: Array<string> = useMemo(() => {
     return [
       "Home", "About", "Products", "Testimonial"
@@ -31,7 +31,7 @@ const Header = () => {
         <a className='contact_link'>
           Contact
         </a>
-        <button>
+        <button onClick={()=>{navigate("/product")}} >
           Buy Online
         </button>
       </div>

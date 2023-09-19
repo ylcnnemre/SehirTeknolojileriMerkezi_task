@@ -1,0 +1,46 @@
+.product_footer {
+    padding: 103px 103px 50px 103px;
+    background-color: transparent;
+
+
+    &_container {
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        padding-top: 54px;
+        padding-bottom: 54px;
+        width: 100%;
+
+        .footer_links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 100px;
+            .footer_item {
+
+                h5 {
+                    color: #253D4E;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 30px;
+                }
+
+                li {
+                    color:#253D4E;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+
+
+    .copyright_field{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+}

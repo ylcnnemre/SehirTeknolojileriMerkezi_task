@@ -5,34 +5,50 @@
     .detailTop_comment {
         display: flex;
         align-items: center;
-
-        .left_icon {
+        justify-content: space-between;
+        padding-right: 100px;
+        .left_side {
             display: flex;
             align-items: center;
-            justify-content: center;
-            background-color: #E5EFFB;
-            border-radius: 50%;
-            padding: 8px;
-        }
+
+            .left_icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #E5EFFB;
+                border-radius: 50%;
+                padding: 8px;
+            }
 
 
-        .desc {
-            margin: 0 36px;
-            color: #2F294D;
-            font-size: 18px;
-            letter-spacing: 1.1px;
+            .desc {
+                margin: 0 36px;
+                color: #2F294D;
+                font-size: 18px;
+                letter-spacing: 1.1px;
 
-            span {
+                span {
+                    text-decoration: underline;
+                    color: #0064D2;
+                }
+            }
+
+            .desc2 {
+                font-size: 18px;
                 text-decoration: underline;
+                letter-spacing: 1.1px;
                 color: #0064D2;
             }
+
         }
 
-        .desc2 {
-            font-size: 18px;
-            text-decoration: underline;
-            letter-spacing: 1.1px;
-            color: #0064D2;
+        .download_btn{
+            background-color: green;
+            padding: 10px 30px;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
         }
     }
 
@@ -71,7 +87,7 @@
 
 
             .product_shipping {
-                color: #2F294D;
+                color: #c4c4c4;
                 margin-top: 10px;
                 font-size: 18px;
                 font-style: normal;
@@ -79,10 +95,118 @@
                 line-height: normal;
             }
 
+            .star_review {
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+
+                .rating_value {
+                    color: #2F294D;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin: 0 30px 0 20px;
+                }
+
+                .review_count {
+                    color: #c4c4c4;
+                }
+
+            }
+
             .star_icon {}
 
+
+            .phone_price {
+                margin-top: 20px;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: flex-start;
+
+                span:first-child {
+                    font-size: 20px;
+                    color: #2F294D;
+                }
+
+                span:last-child {
+                    font-size: 44px;
+                }
+
+            }
+
+            .phone_features {
+
+                display: flex;
+                margin-bottom: 15px;
+
+                p {
+                    margin-left: 15px;
+                }
+            }
+
+            .sold_count {
+                color: #0064D2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin: 20px 0;
+            }
+
+            .product_buy_buttons {
+                margin-top: 30px;
+
+                .buyitnow {
+                    border: none;
+                    padding: 14px 70px;
+                    border-radius: 10px;
+                    background-color: #0064D2;
+                    color: white;
+                    cursor: pointer;
+                    margin-right: 20px;
+                }
+
+                .addtocard {
+                    background: rgba(0, 100, 210, 0.10);
+                    border: none;
+                    padding: 14px 70px;
+                    border-radius: 10px;
+                    color: #0064D2;
+                    cursor: pointer;
+                }
+            }
         }
     }
+
+
+
+    .product_images {
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+
+        .product_img {
+            border-radius: 20px;
+            width: 136px;
+            height: 136px;
+            margin-right: 20px;
+        }
+
+        .lefticon {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E5EFFB;
+            border-radius: 50%;
+            margin-right: 10px;
+            padding: 8px;
+            height: max-content;
+        }
+    }
+
+
 }
 
 .gray_star {
