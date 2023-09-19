@@ -10,7 +10,7 @@ const Header = () => {
   }, [])
 
   return (
-    <section className='header_container' id='header'>
+    <section className='header_container'>
       <img src="Logo.png" alt="" />
 
       <div className='header_links_wrapper' >
@@ -28,7 +28,7 @@ const Header = () => {
 
       </div>
       <div className='header_right_wrapper'>
-        <a className='contact_link'>
+        <a className='contact_link' href='#contact' >
           Contact
         </a>
         <button onClick={()=>{navigate("/product")}} >

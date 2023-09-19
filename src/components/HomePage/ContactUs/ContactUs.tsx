@@ -3,7 +3,7 @@ import "./contactus.scss"
 
 const ContactUs = () => {
   return (
-    <div className='contactus_container'>
+    <div className='contactus_container' id='contact'>
       <div className='img_container'>
         <div className='left'>
           <img src="Contact1.png" className='img1' alt="" />
